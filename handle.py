@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # filename: handle.py
 import hashlib
-import tensorflow as tf
+# import tensorflow as tf
 import reply
 import receive
 import web
@@ -10,11 +10,9 @@ from test_model import *
 from DRN.my_function import *
 from GT_chat import *
 from action import check_action
-from basic import Basic
 from hashmap import *
 m = HashMap(maplen=4)
-accesstoken = Basic()
-accessToken = accesstoken.first_get_access_token()
+
 
 @check_action
 def format_output(output_str, raw_input):
@@ -89,25 +87,21 @@ class Handle(object):
 
                     return replyMsg.send()
                 elif recMsg.MsgType == 'image':
-                    # print(m.get(recMsg.FromUserName))
-                    # try:
                     if recMsg.CreateTime in m.get(recMsg.FromUserName):
                         return_url = 'http://www.dldebug.top/image/' + recMsg.MediaId + '1'
                         replyMsg = reply.TextMsg(toUser, fromUser, return_url)
                         return replyMsg.send()
-                    # except:
                     else:
                         m.add(recMsg.FromUserName, recMsg.CreateTime)
-                        accessToken = accesstoken.get_access_token()
                         mediaId = recMsg.MediaId
-                        # print(recMsg.PicUrl)
+                        image_url = recMsg.PicUrl
                         myMedia = Media()
-                        image_type = myMedia.get(accessToken, mediaId)
+                        image_type = myMedia.get_url(image_url, mediaId)
 
                         receive_info = super_resolution(mediaId, image_type)
                         if receive_info is None:
-                            reply_mediaId = myMedia.upload(accessToken, mediaId, mediaType='image')
-                            replyMsg = reply.ImageMsg(toUser, fromUser, reply_mediaId)
+                            return_url = 'http://www.dldebug.top/image/' + recMsg.MediaId + '1'
+                            replyMsg = reply.TextMsg(toUser, fromUser, return_url)
                         else:
                             replyMsg = reply.TextMsg(toUser, fromUser, receive_info)
                         return replyMsg.send()

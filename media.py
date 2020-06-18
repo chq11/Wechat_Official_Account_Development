@@ -36,6 +36,24 @@ class Media(object):
         re = json.loads(r.text)['media_id']
         return re
 
+    def get_url(self, image_url, mediaId):
+        postUrl = image_url
+        urlResp = request.urlopen(postUrl)
+        # urlResp = urllib.urlopen(postUrl)
+        #print(urlResp.info())
+        #headers = urlResp.info().__dict__['headers']
+        #if ('Content-Type: application/json\r\n' in headers) or ('Content-Type: text/plain\r\n' in headers):
+            #jsonDict = json.loads(urlResp.read())
+            #print (jsonDict)
+        #else:
+        buffer = urlResp.read()
+        # print(buffer)
+        image_type = binfiletype(buffer[:20])
+        mediaFile = open("./DRN/received_image/{}.{}".format(mediaId, image_type), "wb")
+        mediaFile.write(buffer)
+        print("get successful")
+        return image_type
+
 # if __name__ == '__main__':
     # myMedia = Media()
     # accessToken = '9_8uylO_OK25D6WXNTXUSIvZqUahE1YThFV43sK8OCQKoC18fah-6OAh787DWvzv1yHgWz_inm1VD9gkZZX3dPquBEP5CY7JtnrqGQ0AbotG1AAT-yqSLnO-HSkR-aLUl9jWKssSlCyslgpe_6QKHgAIATNK'
