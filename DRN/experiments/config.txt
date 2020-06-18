@@ -1,0 +1,1900 @@
+2020-06-11-12:45:27
+
+on_server: False
+n_threads: 6
+cpu: True
+n_GPUs: 1
+seed: 1
+data_dir: ./
+data_train: DF2K
+data_test: Set5
+data_range: 1-800/801-810
+scale: [2, 4]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+pre_train_dual: .
+n_blocks: 30
+n_feats: 16
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: True
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./DRN/experiments
+print_every: 100
+save_results: True
+dual: True
+
+2020-06-11-13:05:23
+
+on_server: False
+n_threads: 6
+cpu: True
+n_GPUs: 1
+seed: 1
+data_dir: ./
+data_train: DF2K
+data_test: Set5
+data_range: 1-800/801-810
+scale: [2, 4]
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+model: DRN-S
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+pre_train_dual: .
+n_blocks: 30
+n_feats: 16
+negval: 0.2
+test_every: 1000
+epochs: 1000
+batch_size: 32
+self_ensemble: False
+test_only: True
+lr: 0.0001
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 1000000.0
+dual_weight: 0.1
+save: ./DRN/experiments
+print_every: 100
+save_results: True
+dual: True
+
+2020-06-11-19:44:05
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-11-22:22:41
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-11-23:29:03
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-11-23:32:36
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-11-23:47:02
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-09:37:58
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:13:55
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:24:31
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:26:00
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:31:28
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:39:17
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+cpu: True
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:41:11
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:48:20
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:49:53
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-01:57:07
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:03:10
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:08:02
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:10:25
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:12:12
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:16:30
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:21:01
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:22:50
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:34:04
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:35:19
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:37:08
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:44:33
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-02:51:28
+
+n_blocks: 30
+n_feats: 16
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:19:31
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:19:51
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:21:07
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:25:14
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:26:04
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:28:50
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:30:28
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:32:40
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-03:35:20
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-06:36:16
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-06:37:21
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-08:15:39
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-08:21:55
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-08:22:58
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-10:27:28
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-10:36:20
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-10:51:41
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-11:44:53
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-21:46:25
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-21:49:58
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-21:51:32
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-21:55:06
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-12-22:00:02
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-02:48:03
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-03:50:27
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-06:01:35
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-06:06:30
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-06:10:27
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-06:11:52
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-11:28:56
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-11:30:01
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-12:13:10
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:19:42
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:21:43
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:23:09
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:24:50
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: /home/haiquan/deep_learning/wechat_chat_robot_python3/DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:26:16
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:27:30
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:29:25
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:30:56
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:31:55
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4, 8]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS8x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:32:41
+
+n_blocks: 30
+n_feats: 8
+dual: True
+scale: [2, 4]
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+
+2020-06-13-18:41:44
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-13-19:40:47
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-03:33:25
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-03:40:07
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-04:58:23
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-04:59:31
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-06:42:25
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-06:48:21
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-06:50:14
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-06:52:55
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-08:25:53
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-08:52:40
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-08:58:54
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-14-11:09:08
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-15-23:08:19
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-15-23:14:03
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:35:39
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:37:11
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:39:36
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:41:33
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:42:22
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:44:31
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:48:36
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:49:11
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:50:55
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:51:29
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-08:52:12
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-10:32:59
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-10:49:41
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-10:50:09
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-10:52:51
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-10:58:34
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:17:13
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:18:21
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:28:53
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:32:21
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:34:43
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:38:02
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:47:00
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:50:08
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:53:25
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-11:58:51
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-12:06:38
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:45:47
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:49:35
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:50:32
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:52:38
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:53:27
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:54:53
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:56:21
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-19:58:34
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-20:05:45
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-20:13:41
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:04:52
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:06:14
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:12:26
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:16:49
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:18:25
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:26:49
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:27:35
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:29:49
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:30:23
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:32:26
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-21:37:09
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-16-23:16:38
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-17-02:56:30
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-17-03:03:40
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-17-03:10:18
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-17-05:40:09
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
+2020-06-17-12:11:47
+
+data_dir: ./
+save: ./DRN/experiments
+data_test: Set5
+scale: [2, 4]
+pre_train: ./DRN/pretrained_models/DRNS4x.pt
+test_only: True
+save_results: True
+n_blocks: 30
+n_feats: 16
+dual: True
+
