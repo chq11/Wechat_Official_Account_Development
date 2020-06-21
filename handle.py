@@ -6,7 +6,8 @@ import reply
 import receive
 import web
 from media import Media
-from test_model import *
+# from test_model import *
+from ChatBot import predict_chatbot
 from DRN.my_function import *
 from GT_chat import *
 from action import check_action
@@ -60,7 +61,8 @@ class Handle(object):
                     # print is_alphabet(content.decode('utf-8'))
                     print(content)
                     if is_alphabet(content):
-                        re_content1 = pred_f(Sess=sess,encod_inputs=encoder_inputs, decod_inputs=decoder_inputs,map1=map1,pred=pred,recive_c=content).encode('utf-8').decode('utf-8')
+                        re_content1 = predict_chatbot.chat(content)
+                        # re_content1 = pred_f(Sess=sess,encod_inputs=encoder_inputs, decod_inputs=decoder_inputs,map1=map1,pred=pred,recive_c=content).encode('utf-8').decode('utf-8')
                         re_content2 = translation_sys_en_to_zn(content).encode('utf-8').decode('utf-8')
                         replyMsg = reply.TextMsg(toUser, fromUser, 'little beauty：' + re_content1 + '\ntranslation：' + re_content2)
 
@@ -73,8 +75,9 @@ class Handle(object):
                             # re_content2 = translation_sys_zn_to_en(content)
                             chat_input = str(re_content2).strip('.')
                             # print(chat_input)
-                            re_content1 = pred_f(Sess=sess, encod_inputs=encoder_inputs, decod_inputs=decoder_inputs, map1=map1,
-                                   pred=pred, recive_c=chat_input).encode('utf-8').decode('utf-8')
+                            re_content1 = predict_chatbot.chat(content)
+                            # re_content1 = pred_f(Sess=sess, encod_inputs=encoder_inputs, decod_inputs=decoder_inputs, map1=map1,
+                            #        pred=pred, recive_c=chat_input).encode('utf-8').decode('utf-8')
                             re_content1 = translation_sys_en_to_zn(re_content1).encode('utf-8').decode('utf-8')
                             re_content_add = '小权权：' + re_content1 + '\n翻译：' + re_content2
                             replyMsg = reply.TextMsg(toUser, fromUser, re_content_add)
